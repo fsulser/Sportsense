@@ -1,0 +1,186 @@
+.mytable {
+	width: 100%;
+  display: table;
+  border-spacing: 10px;
+}
+.myrow {
+  display: table-row;
+  width: 50%;
+}
+.mycell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.column1 {
+	width: 50%;
+  display: table-column;
+}
+.column2 {
+  display: table-column;
+}
+
+div.frames {
+	min-width: 10px;
+	min-height: 10px;
+	background-color: black;
+	padding-left: 2px;
+	display: table-cell;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+div.imageContainer {
+	display: table;
+	width: 100%;
+}
+.overlayPictures {
+	width: 100%;
+	height: 100%;
+}
+#createEvent {
+	width: 100px;
+	height: 99px;
+}
+div.EventOpt{
+	width: 45%;
+	margin: 5px;
+	display: inline-block;
+	height: 40px;
+	background-color: #428BCA;
+	border-color: #357EBD;
+	border-radius: 6px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+div.teamOpt{
+	width: 45%;
+	margin: 5px;
+	height: 60px;
+	display: inline-block;
+	background-color: #428BCA;
+	border-color: #357EBD;
+	border-radius: 6px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+div.EventOpt:hover{
+	linear-gradient(to bottom, #428BCA 0px, #2D6CA2 100%);
+}
+.Events {
+	display: none;
+	width: 100%;
+	border-radius: 6px;
+}
+.Teams {
+	display: none;
+	width: 100%;
+}
+.Field {
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+.Out {
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+.Add {
+	width: 100%;
+	text-align: center;
+}
+div#FieldImage {
+	margin: 0 auto;
+	position: relative;
+}
+div#FieldImage:hover{
+	cursor: crosshair;
+}
+img.question {
+	height: 100%;
+	float: right;
+}
+b.buttonOuter {
+	height: 100%;
+	float: left;
+	padding-top: 11.5px;
+}
+video#VideoElement{
+	position: relative;
+	width: 600px;
+}
+#videoText{
+	width: 600px;
+	position: relative;
+}
+#container {
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	border-spacing: 10px;
+	width: 100%;
+}
+.overlay, .overlay1, .overlay3{
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	width: 845px;
+	height: 450px;
+	z-index: 1140;
+	margin: auto;
+	margin-top: 100px;
+	padding-top: 100px;
+	color: #000000;
+}
+.overlay1{
+	z-index: 900;
+}
+.overlay3{
+	z-index: 300;
+}
+div.background, div.background1, div.background3 {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 1030;
+	text-align: center;
+}
+div.background1{
+	z-index: 800;
+}
+div.background3{
+	z-index: 200;
+}
+input[type="button"]{
+	background-color: #357EBD;
+	padding: 14px;
+	border: 1px solid black;
+	color: #D9EDF7;
+	margin: 20px;
+}
+input.cancelAdding{
+	padding: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	color: #000000;
+	margin: 0px;
+}
+.panel{
+	height: 100%;
+}
+.panel-body{
+	height: 100%;
+}
+#addImagePoint{
+	margin-top: 5px;
+}

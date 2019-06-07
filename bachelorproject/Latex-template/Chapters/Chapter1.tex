@@ -1,0 +1,151 @@
+\chapter{Introduction}
+
+\section{Motivation}
+
+In sports nowadays it does not suffices to analyze only intuitive performance. A player is increasingly rated by his physical skills and his accuracy. Therefore coaches and responsible persons in a club want to get these data to be able to analyze the game in a modern and simple way.
+
+Different methods are possible to obtain more data. One way is to hire a company to analyze the game and enter the data. A second way is to automatically extract data using a pattern recognition system, and a third way is to give every player a GPS chip and put one into the ball, which will capture their positional information.
+\newline
+Due to the rise of the Internet in the past 20 years and the rise of crowdsourcing in the last five to ten years, we want to build a system using these modern features to provide a less expansive way to get metadata in soccer games regarding interactions in soccer games.
+To use a crowdsourcing-system make very much sense, because sports, and especially soccer, is one of the most common languages understood by a large number of people, regardless of age or the culture.
+
+Soccer analyzing software like $SportSense$ \cite{AlKabary:2013} use these kind of metadata for analysis and retrieval purposes. To the best of our knowledge, automatic systems based on image extraction from high-resolution cameras \cite{Ballan:2007, Seo:1997, Iwase:2004} are at the moment not reliable enough and technical systems for players are currently not allowed in soccer games. This is why manually annotated data still gives the best results for sport games metadata.
+\newline
+Therefore, some companies are specialized{\footnote{http://www.optasportspro.com}$^,$\footnote{http://www.sport-universal.com}} to annotate metadata for soccer games and for other sports.
+
+In this project, a system is built to generate manually annotated metadata, using micro-tasks. As described by Surowiecki \cite{Suwowiecki:2005} a group of untrained people can be even as good as the experts in many application domains.
+
+\newpage
+\section{Crowdsourcing}
+
+The term $crowdsourcing$ was coined by Jeff Howie in 2006, when he wrote the article "The Rise of crowdsourcing" \cite{Howie:2006}, which referred to crowdsourcing as a new model for outsourcing jobs that have been performed interoffice.
+
+The word crowdsourcing is a combination of the two words \textit{crowd} and \textit{outsourcing}. Outsourcing describes the process of assigning certain subtasks to a third-party provider, with the main idea to reduce costs and increase the quality by letting experts do the work.
+In contrast to outsourcing work, employers are not able to choose the worker in the crowdsourcing approach. Employers are only able to chose the providers of a crowdsourcing platform, who themselves also do not know their workers.
+
+These systems are able to solve a big variety of problems that cannot be solved efficiently by algorithms and computers, such as text- and image recognition, analyzing and categorizing video content or verification problems \cite{Howie:2006}. These problems can be solved by a huge number of persons participating on crowdsourcing platforms, independent of location, ethnic background or gender.
+Crowdsourcing is a new way of labor division; different to classical job distribution employers on crowdsourcing websites do not exactly know who their employers are. The employers have a huge amount of different workers available, where the workers are scattered over the whole world, with the small condition that they have Internet.
+
+The process of crowdsourcing can be described in three steps. First, crowdsourcing can only be used for short tasks, which is why complex tasks must be divided into easy and short tasks. Second the dependencies between tasks must be to be managed and the quality  of a task must be controlled \cite{Kittur:2011, Liu:2013}.
+
+In other studies, we can see that crowdsourcing works well for a particular kind of task. Kittur \cite{Kittur:2010} defines a good task as being a task that
+\begin{itemize}
+    \item is fast to complete
+    \item has low barriers to enter
+    \item is objective and verifiable
+    \item does not need big expertise
+    \item can be broken up into subtasks
+\end{itemize}
+
+
+\paragraph{Advantages and Disadvantages}
+A big advantage of crowdsourcing, in contrast to conventional systems, is that they are much cheaper and people are only paid if their work is accepted. By outsourcing the work with crowdsourcing employers only have to pay the worker for the accepted finished task. This means they do not generate any fixed salaries. 
+The pool of users is generally huge. Thereby, employers are able to create restrictions for users participating in their work if the system is able to handle restrictions.
+
+Without any geographical restrictions, the diversification of workers can be seen as an advantage or a disadvantage for employers, depending on their task and their motivation to receive information. The takeaway results provide results from over the whole world, which can be beneficial as they are independent of ethic, financial, or other conditions, but can be a disadvantage if employers only want to know how costumers in their neighborhood or their country react.
+
+
+
+\section{Microworkers}
+
+Microworkers \cite{Microworkers} is a crowdsourcing platform, where each user can be a worker and an employer at the same time. Microworkers was created in 2009.
+
+\subsection{Campaign}
+The job offer in Microworkers is segmented into predefined categories. Each category contains different subcategories.
+The distribution of campaigns in the different categories on Microworkers in 2011 is illustrated in Figure \ref{tab:cat_microworkers}.
+
+\begin{table}[H]
+    \begin{center}
+		\begin{tabular}{lp{2cm}p{2cm}}
+			\hline
+			\textbf{Category} & \textbf{Percentage of jobs} & \textbf{Percentage of reward}\\
+			\hhline{===}
+            Sign up & 6.59 & 6.06\\
+			\hline
+            Click or Search & 2.69 & 1.73\\
+			\hline
+            Bookmark a page (digg, Delicious, Buzz,..) & 5.67 & 4.21\\
+			\hline
+            Youtube & 1.04 & 0.64\\
+			\hline
+            Facebook & 1.74 & 1.78\\
+			\hline
+            Twitter & 0.25 & 0.31\\
+			\hline
+            Voting \& Rating (photo, video, article) & 1.84 & 1.11\\
+			\hline
+            Yahoo Answers & 0.10 & 0.11\\
+			\hline
+            Surveys & 0.00 & 0.00\\
+			\hline
+            Forums & 0.63 & 0.62\\
+			\hline
+            Download, Install & 0.13 & 0.41\\
+			\hline
+            Comment on Other Blogs & 0.63 & 0.61\\
+			\hline
+            Write a review online (Service, Product) & 0.07 & 0.21\\
+			\hline
+            Write an Article & 0.07 & 0.21\\
+			\hline
+            Classifieds posting (Craigslist, Kijiji, etc. & 0.12 & 0.29\\
+			\hline
+			Blog/Website Owners & 0.95 & 3.38 \\
+			\hline
+			Leads & 0.33 & 2.47\\
+			\hline
+			Other & 77.17 & 75.75\\
+			\hline
+		\end{tabular}
+	    \caption{Distribution of categories on Microworkers (reprinted from \cite{Hirth:2011}).}
+        \label{tab:cat_microworkers}
+    \end{center}
+\end{table}
+
+As we have seen on Microworkers, the average campaign complexity is low. There are many campaigns where users just have to sign up or submit their email address.
+\newline
+
+
+\subsection{Employer system}
+
+As an employer, users are able to create a campaign by filling out an online form. From this online form, employers are able to select the geographical location of participating users by continent or to allow all continents and exclude some explicit countries.
+
+In the second section of the online form, Microworkers offers the campaign founder to declare the corresponding category by choosing one of the categories listed in Figure \ref{tab:cat_microworkers}.
+
+Employers also need to enter a campaign title, a description that explains what to do and especially where workers can do the work and a description what workers have to enter as proof for their work.
+
+Then, there is also some information employers must fill out. They need to set a value for the maximum time and a value for the number of tasks they want to have finished. At least, the amount workers will earn will have to be set. Microworkers always enters the recommended value that they think is appropriate to the category. As an employer users still have the possibility to change this value.
+
+
+At the end of the online form, the rating system needs to be selected.
+Microworkers provides two systems for participants. The "Do not verify or auto rate", which is the default system and was the only one available at the start of Microworkers in 2009.
+Employers are really free to create any system to prove the worker finishes the task.
+
+The VCODE system, on the other hand, is a system that is provided by PHP GET parameters from Microworkers. The system automatically checks if a user entered the code provided by the campaign and worker ID provided by Microworkers and a secret key every employer receives.
+VCODE system has two subsystems. The first one will automatically rate entered tokens as satisfied and pay the workers. The second subsystem needs employer to manually annotate every task whether it is accepted or not.
+
+
+\newpage
+\section{Related Work}
+
+Crowdsourcing has been used in many works for generating information through crowd systems. There are different kinds of systems. Some are based on financial attraction, others more on social tribute. 
+The probably most famous system known worldwide based on a social tribute is Wikipedia\footnote{http://www.wikipedia.org/}. For building systems based on financial approaches some companies are well known such as Amazon Mechanical Turk\footnote{https://www.mturk.com/mturk/welcome} or Clickworker\footnote{http://www.clickworker.com/}. One of the most famous tasks in the crowdsourcing approach is reCaptcha \cite{Ahn:2008}, where humans have to enter a sequence of distorted characters.
+\newline
+
+To the best of our knowledge, this work is one of the first to use crowdsourcing for annotating a soccer game.
+The INRIA investigated the idea of generating soccer data through real-time crowdsourcing \cite{Perin:2013}.
+Their approach was to get users entering data on their smartphone while watching a soccer game, with the incentive that users want to help improving a system. Therefore they built a basic system where users have been able to enter motion paths of a player by finger-tracking. Second, they wanted to know which players information they entered, and last, the workers had to enter the event type.
+
+To test their system, they used two groups of user types. Users of the first group do not or rarely watch soccer games and the second group comprises people who often watch soccer games.
+They compared the entered data by DBSCAN \cite{ester:1996} and a Student's t-test.
+\newline
+
+There has also been an approach of generating video annotations in sports videos by using Mechanical Turk\cite{Vondrick:2010}. In this work, the main approach is not to annotate actions in a sports video, the MTurk users must track either a player, the referee or the ball. Users have to track a single object in a video sequence.
+This approach is not very similar to the common way of getting video information, which based on object tracking. Whereas, this approach is to create metadata on events, which are interactions between players and the ball, players with each other or the ball with a line, as a goal, for example.
+\newline
+
+\section{Contributions}
+
+In this thesis, the SportSense Crowdapp is introduced. It is an online application to annotate actions in soccer videos using the crowdsourcing platform Microworkers. This approach is through the use of crowds to create annotations that are as good as the data of experts. The final dataset is calculated with collected data from Microworkers with two different algorithms. First, the unweighted pair group method with arithmetic mean (UPGMA) \cite{Sokal:1958} is used. Second, the DBSCAN algorithm is applied.
+
+To evaluate the system, the data from Manchester City against Bolton Wanderers is used. The calculation results are very promising, depending on the difficulty of the sequence. 

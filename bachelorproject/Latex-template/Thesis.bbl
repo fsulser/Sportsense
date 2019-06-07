@@ -1,0 +1,126 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem{Microworkers}
+Microworkers.
+\newblock \urlprefix\url{http://www.microworkers.com}.
+
+\bibitem{AlKabary:2013}
+Al~Kabary, I. and Schuldt, H.
+\newblock SportSense: Using Motion Queries to Find Scenes in Sports Videos.
+\newblock In {\em Proceedings of the 22Nd ACM International Conference on
+  Conference on Information \&\#38; Knowledge Management\/}, CIKM '13, pages
+  2489--2492. ACM, New York, NY, USA (2013).
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/2505515.2508211}.
+
+\bibitem{Ballan:2007}
+Ballan, L., Bertini, M., Bimbo, A.~D., and Nunziati, W.
+\newblock Soccer Players Identification Based on Visual Local Features.
+\newblock In {\em Proceedings of the 6th ACM International Conference on Image
+  and Video Retrieval\/}, CIVR '07, pages 258--265. ACM, New York, NY, USA
+  (2007).
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1282280.1282321}.
+
+\bibitem{Seo:1997}
+Seo, Y., Choi, S., Kim, H., and Hong, K.-S.
+\newblock Where Are the Ball and Players? Soccer Game Analysis with Color Based
+  Tracking and Image Mosaick.
+\newblock In {\em Proceedings of the 9th International Conference on Image
+  Analysis and Processing-Volume II\/}, ICIAP '97, pages 196--203.
+  Springer-Verlag, London, UK, UK (1997).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=646276.686879}.
+
+\bibitem{Iwase:2004}
+Iwase, S. and Saito, H.
+\newblock Parallel tracking of all soccer players by integrating detected
+  positions in multiple view images.
+\newblock In {\em Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th
+  International Conference on\/}, volume~4, pages 751--754 Vol.4 (2004).
+
+\bibitem{Suwowiecki:2005}
+Surowiecki, J.
+\newblock {\em The Widsom of Crowds\/}.
+\newblock Doubleday; Anchor (2005).
+
+\bibitem{Howie:2006}
+{Jeff Howie}.
+\newblock {The Rise of Crowdsourcing}.
+\newblock
+  \urlprefix\url{http://archive.wired.com/wired/archive/14.06/crowds.html}.
+
+\bibitem{Kittur:2011}
+Kittur, A., Smus, B., Khamkar, S., and Kraut, R.~E.
+\newblock CrowdForge: Crowdsourcing Complex Work.
+\newblock In {\em Proceedings of the 24th Annual ACM Symposium on User
+  Interface Software and Technology\/}, pages 43--52. New York, NY, USA (2011).
+
+\bibitem{Liu:2013}
+Liu, Q., Ihler, A., and Steyvers, M.
+\newblock Scoring Workers in Crowdsourcing: How Many Control Questions are
+  Enough? (2013).
+
+\bibitem{Kittur:2010}
+Kittur, A.
+\newblock Crowdsourcing, Collaboration and Creativity.
+\newblock {\em XRDS\/} (2010).
+
+\bibitem{Hirth:2011}
+Hirth, M., Ho{\ss}feld, T., and Tran-Gia, P.
+\newblock Anatomy of a Crowdsourcing Platform - Using the Example of
+  Microworkers.Com (2011).
+
+\bibitem{Ahn:2008}
+von Ahn, L., Maurer, B., Mcmillen, C., Abraham, D., and Blum, M.
+\newblock reCAPTCHA: Human-Based Character Recognition via Web Security
+  Measures.
+\newblock {\em Science\/}, (5895):1465--1468 (2008).
+
+\bibitem{Perin:2013}
+Perin, C., Vuillemot, R., and Fekete, J.-D.
+\newblock {Real-Time Crowdsourcing of Detailed Soccer Data} (2013).
+\newblock \urlprefix\url{http://hal.inria.fr/hal-00868775}.
+
+\bibitem{ester:1996}
+{Ester, Martin and Kriegel, Hans P. and Sander, Jorg and Xu, Xiaowei}.
+\newblock A Density-Based Algorithm for Discovering Clusters in Large Spatial
+  Databases with Noise (1996).
+
+\bibitem{Vondrick:2010}
+Vondrick, C., Ramanan, D., and Patterson, D.
+\newblock Efficiently Scaling Up Video Annotation with Crowdsourced
+  Marketplaces.
+\newblock In {\em Computer Vision – ECCV 2010\/}, Lecture Notes in Computer
+  Science, pages 610--623. Springer Berlin Heidelberg (2010).
+
+\bibitem{Sokal:1958}
+Sokal, R.~R. and Michener, C.~D.
+\newblock A statistical method for evaluating systematic relationships.
+\newblock {\em University of Kansas Science Bulletin\/}, 38:1409--1438 (1958).
+
+\bibitem{Eaton:2002}
+Eaton, J.
+\newblock {\em {GNU Octave Manual}\/}.
+\newblock Network Theory Ltd. Bristol, UK (2008).
+\newblock
+  \urlprefix\url{http://www.network-theory.co.uk/docs/octave3/index.html}.
+
+\bibitem{MySQL:Events}
+MySQL Event Scheduler.
+\newblock \urlprefix\url{http://dev.mysql.com/doc/refman/5.1/en/events.html}.
+
+\bibitem{FFMPEG:1}
+FFmpeg.
+\newblock \urlprefix\url{http://ffmpeg.org/}.
+
+\bibitem{Keller:1999}
+Keller, M.~S.
+\newblock Take Command: Cron: Job Scheduler.
+\newblock {\em Linux J.\/} (1999).
+
+\bibitem{PDO:1}
+php Data Object.
+\newblock \urlprefix\url{http://www.php.net/manual/de/book.pdo.php}.
+
+\end{thebibliography}

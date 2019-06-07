@@ -1,0 +1,229 @@
+@misc{ester:1996,
+    author = {{Ester, Martin and Kriegel, Hans P. and Sander, Jorg and Xu, Xiaowei}},
+    booktitle = {{Second International Conference on Knowledge Discovery and Data Mining}},
+    editor = {Simoudis, Evangelos and Han, Jiawei and Fayyad, Usama},
+    pages = {226--231},
+    title = {A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise},
+    year = {1996}
+}
+@misc{NIST:2002,
+  author={{National Institute of Standards and Technology (NIST)}},
+  title={{Announcing the secure hash standard}},
+  pages={41--55},
+  year={2002}
+}
+@misc{MySQL:Events,
+title = {MySQL Event Scheduler},
+url = {http://dev.mysql.com/doc/refman/5.1/en/events.html}
+}
+@misc{FFMPEG:1,
+title = {FFmpeg},
+url = {http://ffmpeg.org/}
+}
+
+@misc{PDO:1,
+title = {php Data Object},
+url = {http://www.php.net/manual/de/book.pdo.php}
+}
+@article{Keller:1999,
+ author = {Keller, Michael S.},
+ title = {Take Command: Cron: Job Scheduler},
+ journal = {Linux J.},
+ issue_date = {Sept. 1999},
+ month = sep,
+ year = {1999},
+ publisher = {Belltown Media},
+ address = {Houston, TX}
+}
+@article{Keller:1999:1,
+ author = {Keller, Michael S.},
+ title = {Positionsdynamische Modellierung zur Situations- und Spieleridentifikation im 
+Fußball},
+ journal = {Linux J.},
+ issue_date = {Sept. 1999},
+ publisher = {Belltown Media},
+ address = {Houston, TX}
+}
+@article{Doan:2011,
+ author = {Doan, Anhai and Ramakrishnan, Raghu and Halevy, Alon Y.},
+ title = {Crowdsourcing Systems on the World-Wide Web},
+ journal = {Commun. ACM},
+ issue_date = {April 2011},
+ year={2011},
+ address = {New York, NY, USA}
+}
+@article{Kittur:2010,
+ author = {Kittur, Aniket},
+ title = {Crowdsourcing, Collaboration and Creativity},
+ journal = {XRDS},
+ issue_date = {Winter 2010},
+ month = dec,
+ year = {2010},
+ address = {New York, NY, USA}
+}
+@misc{Howie:2006,
+ title = {{The Rise of Crowdsourcing}},
+ author = {{Jeff Howie}},
+ issue_date = {Jun. 2006},
+ url = {http://archive.wired.com/wired/archive/14.06/crowds.html}
+}
+@misc{Microworkers,
+ title = {Microworkers},
+ url = {http://www.microworkers.com}
+}
+@misc{Hirth:2011,
+ author = {Hirth, Matthias and Ho{\ss}feld, Tobias and Tran-Gia, Phuoc},
+ title = {Anatomy of a Crowdsourcing Platform - Using the Example of Microworkers.Com},
+ booktitle = {Proceedings of the 2011 Fifth International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing},
+ year = {2011},
+ pages = {322--329},
+ numpages = {8},
+ address = {Washington, DC, USA}
+} 
+@misc{Liu:2013,
+title = {Scoring Workers in Crowdsourcing: How Many Control Questions are Enough?},
+author = {Liu, Qiang and Ihler, Alex and Steyvers, Mark},
+booktitle = {Advances in Neural Information Processing Systems 26},
+editor = {C.J.C. Burges and L. Bottou and M. Welling and Z. Ghahramani and K.Q. Weinberger},
+pages = {1914--1922},
+year = {2013},
+publisher = {Curran Associates, Inc.}
+}
+@misc{Perin:2013,
+    url = {http://hal.inria.fr/hal-00868775},
+    title = {{Real-Time Crowdsourcing of Detailed Soccer Data}},
+    author = {Perin, Charles and Vuillemot, Romain and Fekete, Jean-Daniel},
+    affiliation = {AVIZ - INRIA Saclay - Ile de France , Laboratoire d'Informatique pour la M{\'e}canique et les Sciences de l'Ing{\'e}nieur [Orsay] - LIMSI},
+    year = {2013},
+    month = Oct
+}
+@inproceedings{Kittur:2011,
+ author = {Kittur, Aniket and Smus, Boris and Khamkar, Susheel and Kraut, Robert E.},
+ title = {CrowdForge: Crowdsourcing Complex Work},
+ booktitle = {Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology},
+ year = {2011},
+ location = {Santa Barbara, California, USA},
+ pages = {43--52},
+ numpages = {10},
+ address = {New York, NY, USA}
+}
+@incollection{Vondrick:2010,
+year={2010},
+booktitle={Computer Vision – ECCV 2010},
+series={Lecture Notes in Computer Science},
+title={Efficiently Scaling Up Video Annotation with Crowdsourced Marketplaces},
+publisher={Springer Berlin Heidelberg},
+author={Vondrick, Carl and Ramanan, Deva and Patterson, Donald},
+pages={610-623}
+}
+@book{Suwowiecki:2005,
+ author= {James Surowiecki},
+ year={2005},
+ title={The Widsom of Crowds},
+ publisher={Doubleday; Anchor}
+}
+@inproceedings{AlKabary:2013,
+ author = {Al Kabary, Ihab and Schuldt, Heiko},
+ title = {SportSense: Using Motion Queries to Find Scenes in Sports Videos},
+ booktitle = {Proceedings of the 22Nd ACM International Conference on Conference on Information \&\#38; Knowledge Management},
+ series = {CIKM '13},
+ year = {2013},
+ isbn = {978-1-4503-2263-8},
+ location = {San Francisco, California, USA},
+ pages = {2489--2492},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2505515.2508211},
+ doi = {10.1145/2505515.2508211},
+ acmid = {2508211},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {content-based information retrieval, motion queries, query-by-sketch, video search}
+}
+@inproceedings{Ballan:2007,
+ author = {Ballan, L. and Bertini, M. and Bimbo, A. Del and Nunziati, W.},
+ title = {Soccer Players Identification Based on Visual Local Features},
+ booktitle = {Proceedings of the 6th ACM International Conference on Image and Video Retrieval},
+ series = {CIVR '07},
+ year = {2007},
+ isbn = {978-1-59593-733-9},
+ location = {Amsterdam, The Netherlands},
+ pages = {258--265},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/1282280.1282321},
+ doi = {10.1145/1282280.1282321},
+ acmid = {1282321},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {automatic annotation, person recognition, sport video analysis}
+}
+@inproceedings{Seo:1997,
+ author = {Seo, Yongduek and Choi, Sunghoon and Kim, Hyunwoo and Hong, Ki-Sang},
+ title = {Where Are the Ball and Players? Soccer Game Analysis with Color Based Tracking and Image Mosaick},
+ booktitle = {Proceedings of the 9th International Conference on Image Analysis and Processing-Volume II},
+ series = {ICIAP '97},
+ year = {1997},
+ isbn = {3-540-63508-4},
+ pages = {196--203},
+ numpages = {8},
+ url = {http://dl.acm.org/citation.cfm?id=646276.686879},
+ acmid = {686879},
+ publisher = {Springer-Verlag},
+ address = {London, UK, UK}
+} 
+@INPROCEEDINGS{Iwase:2004, 
+author={Iwase, S. and Saito, H.}, 
+booktitle={Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th International Conference on}, 
+title={Parallel tracking of all soccer players by integrating detected positions in multiple view images}, 
+year={2004}, 
+month={Aug}, 
+volume={4}, 
+pages={751-754 Vol.4}, 
+keywords={image processing;object detection;stability;tracking;automatic indexing;automatic intelligent sports casting;automatic player tracking system;detected position integration;multiple view image;parallel tracking;scene recovery;soccer imaging data;soccer scene image;Cameras;Computer science;Foot;Image analysis;Information analysis;Layout;Robot vision systems;Robustness;TV broadcasting;Target tracking}, 
+doi={10.1109/ICPR.2004.1333881}, 
+ISSN={1051-4651}
+}
+
+@book{Howe:2008,
+ author = {Howe, Jeff},
+ title = {Crowdsourcing: Why the Power of the Crowd Is Driving the Future of Business},
+ year = {2008},
+ publisher = {Crown Publishing Group},
+ address = {New York, NY, USA}
+} 
+
+@INPROCEEDINGS{Howie:2006,
+ author = {Jeff Howe},
+ title = {The rise of Crowdsourcing},
+ journal = {Wired Magazine},
+ year={2006}
+}
+
+@article{Sokal:1958,
+  author = {Sokal, R. R. and Michener, C. D.},
+  journal = {University of Kansas Science Bulletin},
+  pages = {1409-1438},
+  title = {A statistical method for evaluating systematic relationships},
+  volume = 38,
+  year = 1958
+}
+
+@Book{Eaton:2002,
+  Author         = "J.W. Eaton",
+  Title          = "{GNU Octave Manual}",
+  Publisher      = "Network Theory Ltd. Bristol, UK",
+  isbn           = "095461206X",
+  url            = "http://www.network-theory.co.uk/docs/octave3/index.html",
+  year           = 2008
+}
+
+@article{Ahn:2008,
+  author = {von Ahn, Luis and Maurer, Benjamin and Mcmillen, Colin and Abraham, David and Blum, Manuel},
+  journal = {Science},
+  keywords = {OCR captcha digital_library recognition},
+  month = {August},
+  number = 5895,
+  pages = {1465-1468},
+  title = {reCAPTCHA: Human-Based Character Recognition via Web Security Measures},
+  year = 2008
+}
+

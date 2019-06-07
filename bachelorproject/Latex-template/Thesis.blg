@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: thesis.bst
+Database file #1: thesis.bib
+Repeated entry---line 194 of file thesis.bib
+ : @inproceedings{Howie:2006
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no volume in Ahn:2008
+You've used 21 entries,
+            2256 wiz_defined-function locations,
+            645 strings with 7996 characters,
+and the built_in function-call counts, 6558 in all, are:
+= -- 486
+> -- 155
+< -- 7
++ -- 62
+- -- 41
+* -- 315
+:= -- 743
+add.period$ -- 65
+call.type$ -- 21
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 627
+empty$ -- 718
+format.name$ -- 52
+if$ -- 1516
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 146
+newline$ -- 108
+num.names$ -- 17
+pop$ -- 290
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 205
+stack$ -- 0
+substring$ -- 256
+swap$ -- 384
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 35
+width$ -- 23
+write$ -- 222
+(There was 1 error message)

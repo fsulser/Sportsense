@@ -1,0 +1,104 @@
+body {
+	padding: 10px;
+}
+p{
+	margin: 0px;
+}
+#container {
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	border-spacing: 10px
+}
+#videoFrame {
+	background-color: #F6FFF2;
+	display: table-cell;
+	width: 60%;
+	text-align: center;
+}
+#eventFrame, #timeoverlay {
+	background-color: #F6FFF2;
+	display: table-cell;
+	padding: 0px;
+	height: 100%;
+	width: 40%;
+	border: 0px;
+	vertical-align: middle;
+}
+div.frames {
+	min-width: 10px;
+	min-height: 10px;
+	background-color: black;
+	padding-left:2px;
+	display: table-cell;
+	position: relative;
+	padding:0px;
+	margin: 0px;
+}
+div.imageContainer{
+	border-spacing:2px;
+	display: table-cell;
+}
+video#VideoElement {
+	z-index: 10;
+	width: 500px;
+}
+div.box {
+	border: 1px solid #bce8f1;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: #31708f;
+	/*background-color: #ECF9FC;*/
+	background-color: transparent;
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+input{
+	padding:10px;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+	color: #31708F;
+	display: table-cell;
+}
+select{
+	background-color: #FFFFCC;
+	color: #8a6d3b;
+	display: table-cell;
+}
+option {
+	-webkit-appearance: none;
+	background-color: #FFFFCC;
+	color: #8a6d3b;
+}
+table {
+	margin: 0 auto;
+	border: 1px solid black;
+	min-width: 200px;
+	text-align: left;
+}
+table tbody {
+	display: block;
+	height: 80px;
+	overflow-y: scroll;
+}
+table tbody tr {
+	width: 70%;
+}
+
+table tbody tr th {
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 10px;
+}
+
+table tbody tr td {
+	padding-right: 10px;
+}
+
+img.eventPictures{
+	padding: 0px;
+	position: relative;
+	width: 100%;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Interface.Window"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.MediaPrintableArea"/>
+<fullyQualifiedTypeName name="com.xuggle.ferry.NativeLogger"/>
+<fullyQualifiedTypeName name="org.gstreamer.elements.PlayBin2"/>
+<fullyQualifiedTypeName name="org.gstreamer.Bus"/>
+<fullyQualifiedTypeName name="org.gstreamer.GstObject"/>
+<fullyQualifiedTypeName name="org.gstreamer.TagList"/>
+<fullyQualifiedTypeName name="org.gstreamer.TagMergeMode"/>
+<fullyQualifiedTypeName name="Interface.VideoPlayer"/>
+<fullyQualifiedTypeName name="javax.media.Manager"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.media.Player"/>
+<fullyQualifiedTypeName name="java.awt.Component"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="javax.media.NoPlayerException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.media.CannotRealizeException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="Interface.VideoPanel"/>
+<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+<fullyQualifiedTypeName name="Interface.TextPanel"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="com.xuggle.mediatool.IMediaReader"/>
+<fullyQualifiedTypeName name="com.xuggle.mediatool.ToolFactory"/>
+<fullyQualifiedTypeName name="com.xuggle.mediatool.IMediaWriter"/>
+<fullyQualifiedTypeName name="com.xuggle.mediatool.IMediaViewer"/>
+</qualifiedTypeNameHistroy>

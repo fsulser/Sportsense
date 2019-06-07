@@ -1,0 +1,46 @@
+\chapter{Discussion}
+
+This section, discusses the results of the thesis and explains the project's limitations due to the system: the workers and the provided video.
+
+
+\section{Microworkers}
+
+In the project, it was seen that Microworkers may not be the best crowdsourcing platform for the current approach.
+
+This has different reasons. First, the system does not allow a user to do a task twice in one campaign, which is a disadvantage for the system, because the tasks in one campaign are not exactly the same, due to the changes in time of the video snippet.
+\newline
+Another issue is that Microworkers does not provide a system to determine by an interface whether to accept a task automatically after all tasks are completed. Each task must be accepted manually, which takes a lot of time, especially considering that one half of a video has about 2820 tasks.
+The introduced API version by the Microworkers system would fix this problem, but the system was introduced in August 2013 and still not available as a running system.
+
+\section{Video}
+It was also seen that the angle of the camera in a video is crucial. To provide good results, the system needs a video that does not contain any repetitions and slow motions clips, because this will lead to doubled data entries or more.
+
+The system also needs a perspective that does not contain a large zoom, because without seeing an edge or more than one line it is hard for workers to set the correct position. Further, the camera view should always show the same perspective of the field, because, for example, a camera on the other side of the field would not be recognized by workers and would lead to entered values mirrored at the central line.
+
+\section{System}
+
+The results on this study have shown that the system is able to generate new events based on a dataset of Microworker users based on a clustering algorithm. With the introduction of a rating system one could disable users entering wrong or too little information from doing more tasks.
+
+The calculated results with our clustering method have been good with respect to some classification problems with close points. Good results were generated in an average sequence of a football game regarding the number of events per second.
+The rating system could be improved by letting users do more pre-tasks at the beginning or by adding test-tasks after a certain number of tasks.
+
+The system based on the users rating operates quite well. As shown in Figure \ref{img:accepted:rejected:Pretest}, already with the pretest a large number of users could be disqualified from doing bad tasks.
+One issue is that this may be not enough. By adding a second pretest for every user the number of accepted users could definitely be decreased. With only one pretest we also accept many users adding just one or two of three events, as shown in Figure \ref{img:missedPretest}. In addition, many users also did their task imprecisely. Those users often get a rating between $0$ and $-1$ and are able to participate more tasks, if they will do a second pretest and get another acceptation. However, with bad results they will be dismissed from further tasks.
+
+Another possibility to further decrease the number of inaccurate workers could also be to scatter test-tasks in the standard tasks rather than only having a pretest. This method is also described in \cite{Liu:2013}. With this, every user will have to do a test task after a specified number of tasks, which will decide if he still is doing good work or if his quality slackened.
+\newline
+In the test we made we have also seen that the quality of the positions value depends on the position on the field, as also described in \cite{Perin:2013}. Events near a junction of two lines is simple, more difficult are positions where we only see two lines and positions seeing only one straight line are hard to enter the correct position.
+By entering the data to be compared with we have also seen, that there are many actions in a game which cannot clearly be labeled as an event.
+Another problem we recognized is that to get results without duplicates the video file must not have any slow motions or repetitions of scenes. Since every user sees only a 5 second snippet he may not recognize if this is a repetition or not and repetitions are mostly from views where it is hard to set the right position, because it is sometimes even unknown on which half the action was. Especially if the video contains a camera position behind the goal, users do not know if it was the goal on the left or right side of the field.
+
+\section{Financial Approach}
+
+As the motivation of this work was to find another, cheaper way to get annotations in sport videos we also have to look at the financial view.
+With our approach a task will cost 0.20 Dollars. Assumed each half of a game lasts about 47 minutes, 45 minutes official time and 2 minutes of stoppage time, we would end up in a total game time of 94 minutes.
+Due to the video we need to create for each half his own campaign. This will give us 2 times 47 minutes, where every task is 5 seconds.
+Because a task always starts 5 seconds later then the previous task we will end up in 5640 tasks where each task generates costs of 20 Cents a half would cost 1128 dollars and the total game 2256\$.
+\newline
+But thats not the total amount. Because every user have to do one pretest at the moment which costs also 0.20 cent for all accepted users.
+The expense for the pretest would reduce with the number of campaign started, because after a number of users the number of new users would decrease.
+
+Unfortunately we couldn't find any informations on how much manually annotated data by experts costs for one soccer game.

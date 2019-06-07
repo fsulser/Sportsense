@@ -1,0 +1,15 @@
+\chapter{Abstract}
+
+Nowadays, in many sports, a detailed game analysis becomes increasingly important when evaluating individual and team performance. To use existing analytic tools there is a need for data. Especially in sports such as soccer, a great controversy currently exists  regarding the use of sensor solutions to track players. However, so far these solutions are expensive, not always available and are sometimes inaccurate or produce wrong information. On many occasions, only the video data is at hand, which for professional games is manually annotated by experts in this field of sports.  Unfortunately, this data are also expensive to get.
+
+
+This work shows another possibility to generate metadata of sport games besides using the conventional systems that uses experts, camera systems or GPS-tracking.
+This approach uses the Microworkers online platform, a crowd-sourcing system with his massive amount of people who are not experts in this field, to collect annotations in sports games. For this purpose, Microworkers \cite{Microworkers}, a platform that enables employers to create paid campaigns, is used for crowdsourcing.
+In this campaign, workers have to detect and annotate events in a video snippet of a soccer game. To get good results from crowd users, an understandable and easy to use web interface has been built that microworkers use for entering their task. 
+To ensure a high-quality data, the sequence is annotated by multiple users and the results calculated out of the data collected using two different algorithms, the unweighted pair group method with arithmetic mean (UPGMA) known from bioinformatics, and DBSCAN, a well-known clustering algorithm.
+
+The annotation includes the action, the corresponding team, the position and, the time the event occurred.
+
+To increase the quality of the results, a rating system is applied that determines the reliability of the data entered by the microworker.
+
+The system was evaluated using a dataset from a Manchester City - Bolton Wanderers game and the data collected through microworkers was tested to the ground truth. By creating a pretest where user are checked against the ground truth we could heavily increase the quality of the data. The results of our calculations are very promising depending on the difficulty of the sequence.

@@ -1,0 +1,15 @@
+\chapter{Abstract}
+
+Nowadays, in many sports, a detailed game analysis becomes increasingly important when evaluating individual and team performance. To use existing analytic tools there is a need for data. Especially in sports such as soccer, a great controversy currently exists  regarding the use of sensor solutions to track players. However, so far these solutions are expensive, not always available and are sometimes inaccurate or produce wrong informations. On many occasions, only the video data is at hand, which for professional games is manually annotated by experts in this field of sports.  Unfortunately, this data are also expensive to get.
+
+
+This work shows another possibility to generate metadata of sport games than using the conventional systems that uses experts, camera systems or GPS-tracking.
+We introduce the Microworkers Crowdapp, an approach to use a crowd-sourcing system with his massive amount of people who are not experts in this field, to collect annotations in sports games. For this purpose, we use Microworkers \cite{Microworkers}, a crowdsourcing platform which enables employer to create paid campaigns.
+In our campaigns workers have to detect and annotate events in a video snippet of a soccer game. To get good results from crowd-users we have built an understandable and easy to use web interface that the microworkers use for entering their task. 
+To ensure a high quality of the data, the sequence is annotated by multiple users and the results calculated out of the data collected using two different algorithms, the Unweighted Pair Group Method with Arithmetic Mean (UPGMA) known from bioinformatics, and DBSCAN, a well-known clustering algorithm.
+
+The annotation includes the action, the corresponding team, the position and the time the event occurred.
+
+To increase the quality of our results we apply a rating system that determines the confidence to the data entered by the mocroworker.
+
+We have evaluated our system using a dataset from the Manchester City - Bolton Wanderers game and tested the data collected through microworkers to the ground truth. The results of our calculations are very promising depending on the difficulty of the sequence.

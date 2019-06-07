@@ -1,0 +1,104 @@
+%% ----------------------------------------------------------------
+%% Thesis.tex -- main
+%% ---------------------------------------------------------------- 
+
+\documentclass[a4paper, 10pt, oneside]{memoir}
+\usepackage{thesis}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{float}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\usepackage{url,textcomp}
+\usepackage{pdfpages}
+\usepackage{hhline}
+\usepackage{titlesec}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{upquote}
+\usepackage{graphicx}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\lstset{
+basicstyle=\small\ttfamily,
+numbers=left,
+numbersep=5pt,
+xleftmargin=20pt,
+frame=tb,
+framexleftmargin=20pt
+}
+
+\renewcommand*\thelstnumber{\arabic{lstnumber}:}
+
+\DeclareCaptionFormat{mylst}{\hrule#1#2#3}
+\captionsetup[lstlisting]{format=mylst,labelfont=bf,singlelinecheck=off,labelsep=space}
+
+
+%% ----------------------------------------------------------------
+
+\title				{Crowdsourcing Annotations for Video Retrieval in Sports Videos}
+\thesistype			{Bachelor Thesis}
+
+\department 		{Department of Mathematics and Computer Science}
+\faculty			{Natural Science Faculty of the University of Basel}
+\research		    {Databases and Information Systems (DBIS) Group
+ \\ http://dbis.cs.unibas.ch
+}
+
+\supervisor  		{Ivan Giangreco, MSc \\ Ihab Al Kabary, MSc}
+\examiner    		{Prof. Dr. Heiko Schuldt}
+
+\authors     		{Fabio Sulser}
+\email				{fabio.sulser@stud.unibas.ch}
+\immatriculnr		{2010-750-248}
+
+\date				{05.06.2014}
+
+\universitylogo		{StyleFiles/LogoUniBasel}
+\universitysignet	{StyleFiles/SignetUniBasel}
+
+
+%% ----------------------------------------------------------------
+\begin{document}
+\thesisfront
+\maketitle
+\pagestyle{thesis}
+
+%% ----------------------------------------------------------------
+\input{./Front/Acknowledgment}
+%% ----------------------------------------------------------------
+\input{./Front/Abstract}
+%% ----------------------------------------------------------------
+\thesistoc
+%% ----------------------------------------------------------------
+%%\thesisnomencl
+%% ----------------------------------------------------------------
+\thesismain
+\input{./Chapters/Chapter1}
+\input{./Chapters/Chapter1a}
+\input{./Chapters/Chapter2}
+\input{./Chapters/Chapter3}
+\input{./Chapters/Chapter4}
+\input{./Chapters/Chapter5}
+\input{./Chapters/Chapter6}
+%\input{./Chapters/Chapter7}
+%% ----------------------------------------------------------------
+\thesisappendix
+\thesisbib
+\begin{appendices}
+	\input{./Back/AppendixA} 
+\end{appendices}
+%% ----------------------------------------------------------------
+\thesisback
+%\input{./Back/DeclarationOfAuthorship}
+\includepdf[noautoscale]{./Back/DeclarationOfAuthorship_completed.pdf}
+%\includepdf[noautoscale]{./Back/Scientific_Integrity.pdf}
+\includepdf[noautoscale]{./Back/Scientific_Integrity_completed.pdf}%% ----------------------------------------------------------------
+\end{document}
+%% ----------------------------------------------------------------
